@@ -8,11 +8,11 @@ u = u + v * dt
 t = t + dt
 </modelregels>
 <startwaarden>
-C = 100
-m = 25
+C = 10
+m = 0,1
 v = 0
-u = 0
+u = 0,2
 t = 0
-dt = 0,01
+dt = 0,001
 </startwaarden>
 </modelleertaal>
