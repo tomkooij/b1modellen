@@ -9,8 +9,8 @@ t = t + dt
 <startwaarden>
 C = 10
 m = 0,1
-v = 0
-u = 0,2
+v = 3
+u = 0
 t = 0
 dt = 0,001
 </startwaarden>
