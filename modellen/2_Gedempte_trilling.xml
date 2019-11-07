@@ -1,0 +1,24 @@
+﻿<modelleertaal>
+<startwaarden>
+C = 10
+l = 0,1
+m = 0,1
+v = 0
+u = 0,2
+t = 0
+dt = 0,001
+
+</startwaarden>
+<modelregels>
+Fveer = -C * u
+Fdemp = -l * v
+Fres = Fveer + Fdemp
+
+a = Fres / m
+v = v + a * dt
+u = u + v * dt
+t = t + dt
+x = u + 0,3
+
+</modelregels>
+</modelleertaal>

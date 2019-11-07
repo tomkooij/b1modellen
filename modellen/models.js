@@ -2,4 +2,5 @@
 var model_index = [
 		{title: "0 Leeg model", url: "modellen/0_Leeg_model.xml"},
 		{title: "1 Harmonische trilling", url: "modellen/1_Harmonische_trilling.xml"},
+		{title: "2 Gedempte trilling", url: "modellen/2_Gedempte_trilling.xml"},
 ];

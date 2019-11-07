@@ -1,6 +1,5 @@
 <modelleertaal>
 <modelregels>
-'Kracht-versnellingsmodel
 Fres = -C * u
 a = Fres / m
 v = v + a * dt
