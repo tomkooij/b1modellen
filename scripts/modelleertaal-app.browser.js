@@ -1304,7 +1304,7 @@ ModelleertaalApp.prototype.create_pgfplot_header = function() {
 		}
 
 		function get_units_by_variable_name(var_name) {
-			var units = {"x": "\\meter", "y": "\\meter", "h": "\\meter",
+			var units = {"x": "\\meter", "y": "\\meter", "h": "\\meter", "u": "\\meter",
 								"s": "\\meter", "t": "\\second",
 							 "v": "\\meter\\per\\second",
 							 "a": "\\meter\\per\\second",
@@ -1335,8 +1335,9 @@ ModelleertaalApp.prototype.create_pgfplot_header = function() {
 		return "%x and y scale set to 10cmx10cm grid. Adjust to fit!\n" +
 		 "% x = ["+x_min+" .. "+arrayMax(x)+"]\n"+
 		 "% y = ["+y_min+" .. "+arrayMax(y)+"]\n"+
-		 "% this only works for graphs starting a (0,0)\n"+
+		 "% this only works for graphs starting at (0,0)\n"+
 		 "\\begin{axis}[x=1cm\/"+x_scale+", y=1cm\/"+y_scale+",\n"+
+     "%axis lines*=center,"+
 		 "enlargelimits=false, tick align=outside,\n "+
 		 "xlabel={$"+x_var+"$ [\\si{"+x_unit+"}]},\n"+
 		 "ylabel={$"+y_var+"$ [\\si{"+y_unit+"}]},\n"+
@@ -1370,12 +1371,13 @@ ModelleertaalApp.prototype.create_pgfplot = function() {
 
 		PGFPlot_TeX = "% Use \\input{} to wrap this inside suitable LaTeX doc:\n";
 		PGFPlot_TeX += "\\begin{tikzpicture}\n" +
+       "\pgfkeys{/pgf/number format/use comma}\n" +
 			 "% draw 10x10cm millimeter paper.\n" +
 			 "\\def\\width{10}\n" +
 	     "\\def\\height{10}\n" +
-	     "\\draw[step=1mm, line width=0.2mm, black!20!white] (0,0) grid (\\width,\\height);\n"+
-	     "\\draw[step=5mm, line width=0.2mm, black!40!white] (0,0) grid (\\width,\\height);\n"+
-	     "\\draw[step=1cm, line width=0.2mm, black!60!white] (0,0) grid (\\width,\\height);\n";
+	     "\\draw[step=1mm, line width=0.2mm, blue!20!white] (0,0) grid (\\width,\\height);\n"+
+	     "\\draw[step=5mm, line width=0.2mm, blue!40!white] (0,0) grid (\\width,\\height);\n"+
+	     "\\draw[step=1cm, line width=0.2mm, blue!60!white] (0,0) grid (\\width,\\height);\n";
 		PGFPlot_TeX += "%\n%\n%\n";
 
 		PGFPlot_TeX += this.create_pgfplot_header();
