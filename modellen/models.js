@@ -4,5 +4,6 @@ var model_index = [
 		{title: "1 Harmonische trilling", url: "modellen/1_Harmonische_trilling.xml"},
 		{title: "2 Gedempte trilling", url: "modellen/2_Gedempte_trilling.xml"},
 		{title: "3 Slinger", url: "modellen/3_Slinger.xml"},
+		{title: "Onderzoek Harmonisch trilling", url: "modellen/Onderzoek_Harmonisch_trilling.xml"},
 		{title: "Onderzoek met een model", url: "modellen/Onderzoek_met_een_model.xml"},
 ];
