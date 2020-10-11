@@ -1,7 +1,11 @@
 ﻿<modelleertaal>
 <startwaarden>
-N = 1000
-halveringstijd = 20
+Na = 6,022e23
+
+' Radon-224: 224 g/mol en 3,64d
+N = 1e-6 / 224 * Na
+halveringstijd = 3,64 * 24 * 3600
+
 t = 0
 dt = 0,1
 </startwaarden>

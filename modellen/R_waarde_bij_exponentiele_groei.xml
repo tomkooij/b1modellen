@@ -1,12 +1,12 @@
 ﻿<modelleertaal>
 N=15
 <startwaarden>
-I = 10
+N = 10
 R = 1,2
 t = 0
 </startwaarden>
 <modelregels>
-I = ...
+N = ...
 t = t + 1
 </modelregels>
 </modelleertaal>
