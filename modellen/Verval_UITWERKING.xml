@@ -1,0 +1,14 @@
+﻿<modelleertaal>
+<startwaarden>
+N = 1000
+halveringstijd = 20
+t = 0
+dt = 0,1
+</startwaarden>
+<modelregels>
+A = ln(2) / halveringstijd * N
+dN = -A * dt
+N = N + dN
+t = t + dt
+</modelregels>
+</modelleertaal>

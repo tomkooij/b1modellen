@@ -4,7 +4,12 @@ var model_index = [
 		{title: "1 Harmonische trilling", url: "modellen/1_Harmonische_trilling.xml"},
 		{title: "2 Gedempte trilling", url: "modellen/2_Gedempte_trilling.xml"},
 		{title: "3 Slinger", url: "modellen/3_Slinger.xml"},
+		{title: "Moeder dochter verval", url: "modellen/Moeder_dochter_verval.xml"},
 		{title: "Onderzoek Harmonisch trilling", url: "modellen/Onderzoek_Harmonisch_trilling.xml"},
 		{title: "Onderzoek Harmonisch trilling UITWERKING", url: "modellen/Onderzoek_Harmonisch_trilling_UITWERKING.xml"},
 		{title: "Onderzoek met een model", url: "modellen/Onderzoek_met_een_model.xml"},
+		{title: "R waarde bij exponentiele groei", url: "modellen/R_waarde_bij_exponentiele_groei.xml"},
+		{title: "R waarde bij exponentiele groei UITWERKING", url: "modellen/R_waarde_bij_exponentiele_groei_UITWERKING.xml"},
+		{title: "Verval", url: "modellen/Verval.xml"},
+		{title: "Verval UITWERKING", url: "modellen/Verval_UITWERKING.xml"},
 ];
