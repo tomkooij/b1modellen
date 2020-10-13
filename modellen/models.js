@@ -10,6 +10,7 @@ var model_index = [
 		{title: "Onderzoek met een model", url: "modellen/Onderzoek_met_een_model.xml"},
 		{title: "R waarde bij exponentiele groei", url: "modellen/R_waarde_bij_exponentiele_groei.xml"},
 		{title: "R waarde bij exponentiele groei UITWERKING", url: "modellen/R_waarde_bij_exponentiele_groei_UITWERKING.xml"},
+		{title: "Springstok", url: "modellen/springstok.xml"},
 		{title: "Verval", url: "modellen/Verval.xml"},
 		{title: "Verval UITWERKING", url: "modellen/Verval_UITWERKING.xml"},
 ];

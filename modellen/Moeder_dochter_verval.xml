@@ -3,11 +3,11 @@ N=2000
 <startwaarden>
 ' moeder
 N_m = 1000
-halveringstijd_m = 10
+halveringstijd_m = ...
 
 ' dochter
 N_d = 0
-halveringstijd_d = 50
+halveringstijd_d = ...
 
 t = 0
 dt = 0,1
