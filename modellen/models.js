@@ -11,6 +11,7 @@ var model_index = [
 		{title: "Massa-veersysteem", url: "modellen/Massa-veersysteem.xml"},
 		{title: "Massa-veersysteem (met zwaartekracht) UITWERKING", url: "modellen/Massa-veersysteem_(met_zwaartekracht)_UITWERKING.xml"},
 		{title: "Massa-veersysteem UITWERKING", url: "modellen/Massa-veersysteem_UITWERKING.xml"},
+		{title: "Mathematische slinger", url: "modellen/Mathematische_slinger.xml"},
 		{title: "Mathematische slinger UITWERKING 1", url: "modellen/Mathematische_slinger_UITWERKING_1.xml"},
 		{title: "Mathematische slinger UITWERKING 2", url: "modellen/Mathematische_slinger_UITWERKING_2.xml"},
 		{title: "Moeder dochter verval", url: "modellen/Moeder_dochter_verval.xml"},
