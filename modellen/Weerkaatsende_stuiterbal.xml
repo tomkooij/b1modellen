@@ -1,4 +1,5 @@
 ﻿<modelleertaal>
+N=1000
 <startwaarden>
 b = 3 'breedte
 hb = b/2 'halve breedte
